@@ -12,7 +12,7 @@ public class ResultText : MonoBehaviour
     void Start()
     {
         gameObject.SetActive(false);
-        resultTextLocalize = GetComponent<Localize>(); 
+        resultTextLocalize = GetComponent<Localize>();
     }
 
     public void SaveInput(string value)

@@ -17,3 +17,6 @@
 "input-field-prompt","Enter your text","متن خود را وارد کنيد"
 "confirm","Confirm","تأييد"
 "result-text","What you typed:@#","متني که وارد کرديد:@#"
+"stop","Stop","توقف"
+"resume","Resume","ادامه"
+"start","Start","شروع"
