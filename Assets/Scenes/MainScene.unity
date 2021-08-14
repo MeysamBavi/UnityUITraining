@@ -1682,7 +1682,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20.74945, y: 478.86478}
+  m_SizeDelta: {x: -2.1749268, y: 478.86478}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &462369862
 MonoBehaviour:
@@ -3303,6 +3303,7 @@ GameObject:
   - component: {fileID: 930887887}
   - component: {fileID: 930887885}
   - component: {fileID: 930887889}
+  - component: {fileID: 930887890}
   m_Layer: 5
   m_Name: Scrollview
   m_TagString: Untagged
@@ -3328,7 +3329,7 @@ RectTransform:
   m_AnchorMin: {x: 0.14563724, y: 0}
   m_AnchorMax: {x: 0.85684973, y: 1}
   m_AnchoredPosition: {x: -1.0441589, y: -28.290634}
-  m_SizeDelta: {x: 49.052124, y: -120.54141}
+  m_SizeDelta: {x: 7.149963, y: -120.54141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930887885
 MonoBehaviour:
@@ -3423,8 +3424,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
+  m_HorizontalFit: 2
   m_VerticalFit: 0
+--- !u!114 &930887890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930887883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: 670
+  m_MinHeight: -1
+  m_PreferredWidth: 670
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1001 &1101361444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5440,10 +5461,10 @@ RectTransform:
   m_Father: {fileID: 546628652}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.85684973, y: 0.08639461}
-  m_AnchorMax: {x: 0.85684973, y: 1}
-  m_AnchoredPosition: {x: 37.679596, y: -43.5}
-  m_SizeDelta: {x: 7.2631836, y: -109.17743}
+  m_AnchorMin: {x: 0.5, y: 0.080605395}
+  m_AnchorMax: {x: 0.5, y: 0.7736054}
+  m_AnchoredPosition: {x: 374.17957, y: 1}
+  m_SizeDelta: {x: 6.2631836, y: -24.17743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734780535
 MonoBehaviour:
@@ -6563,11 +6584,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 13.1
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 12
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -6599,7 +6620,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6, y: 6, z: 6, w: 6}
+  m_margin: {x: 3, y: 3, z: 3, w: 3}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6654,7 +6675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.8202, y: -76.899994}
+  m_AnchoredPosition: {x: 0.11476, y: -72.8}
   m_SizeDelta: {x: 658.4774, y: 20.6678}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136895015495756614
@@ -6882,11 +6903,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 13.1
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 12
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -6918,7 +6939,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6, y: 6, z: 6, w: 6}
+  m_margin: {x: 3, y: 3, z: 3, w: 3}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7092,11 +7113,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 13.1
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 12
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -7128,7 +7149,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6, y: 6, z: 6, w: 6}
+  m_margin: {x: 3, y: 3, z: 3, w: 3}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
